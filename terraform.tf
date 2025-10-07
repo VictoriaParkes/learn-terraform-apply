@@ -19,14 +19,13 @@ terraform {
     }
   }
 
-  /* Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
-    organization = "organization-name"
+    organization = "learning-org-vic"
     workspaces {
       name = "learn-terraform-apply"
+      project = "Learn Terraform"
     }
   }
-*/
 
   required_version = "~> 1.6"
 }
