@@ -22,7 +22,7 @@ terraform {
   cloud {
     organization = "learning-org-vic"
     workspaces {
-      name = "learn-terraform-apply"
+      name    = "learn-terraform-apply"
       project = "Learn Terraform"
     }
   }
